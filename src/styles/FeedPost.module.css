@@ -1,0 +1,70 @@
+.feedPostContainer {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  background-color: #292A2A;
+  border: 1px solid #333;
+  border-radius: 15px;
+  padding: 16px;
+  margin-bottom: 16px;
+  margin-top: 16px;
+  width: 100%;
+  gap: 16px;
+  text-align: center;
+  box-shadow: 5px 15px 25px rgba(0,0,0,0.35);
+}
+
+.feedPostHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+}
+
+.feedPostProfilePicture {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid black;
+  object-fit: cover;
+}
+
+.feedPostProfileName {
+  font-size: 20px;
+  font-weight: 300;
+  
+}
+
+.feedPostContentImage {
+  height: 256px;
+  border-radius: 10px;
+}
+
+.feedPostContentTitle {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.feedPostContentDescription {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.feedPostItem{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.feedPostFooter {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  justify-content: center;
+}
+.item{
+  margin-right: 5px;
+}

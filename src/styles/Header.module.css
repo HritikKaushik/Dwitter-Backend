@@ -1,0 +1,45 @@
+
+.headerContainer {
+  height: 64px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #292A2A;
+  border-bottom: 1px solid black;
+  z-index: 99999;
+}
+.title{
+  padding: 5px;
+  font-weight: 500;
+  font-size: 30px;
+}
+.logo {
+  height: 40px;
+  width: 40px;
+  margin-left: 16px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+}
+
+.right {
+  margin-right: 16px;
+}
+
+.icon{
+  justify-content: center;
+  align-self: center;
+  margin-left: 50%;
+  margin-top: 45%;
+}
